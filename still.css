@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    color: #333;
+    background-color: #f3e5f5;
+    margin: 0;        
+    display: flex;    
+}
+
+h1 {
+    font-size : 2.5rem;          
+    font-weight: 700;          
+    color: #f25244;             
+    margin-bottom: 5px;
+    letter-spacing: -1px;
+}
+h2 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #b58ded;             
+    margin-bottom: 25px;
+}
+
+
+.yan-menu {
+    width: 190px;
+    height: 100vh;
+    background-color: #ffffff;
+    border-right: 1px solid #f8bbd0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px 15px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+.logo-alani {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 40px;
+}
+
+.logo-alani img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+
+.logo-alani h2 {
+    font-size: 1.4rem;
+    color: #7014bb;
+    margin: 0;
+}
+
+.menu-linkler {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.menu-linkler a {
+    padding: 12px 16px;
+    color: #f474d2;
+    text-decoration: none;
+    border-radius: 12px;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.menu-linkler a:hover {
+    background-color: #fce4ec;
+    color: #7014bb;
+}
+
+
+.ana-icerik {
+    margin-left: 210px;
+    padding: 40px;
+    flex-grow: 1;
+}
+
+
+
+.pin-galerisi {
+    display: flex;         
+    flex-wrap: wrap;       
+    gap: 20px;             
+}
+
+
+.kart {
+    background-color: #fce4ec;
+    padding: 16px;
+    border: 1px solid #f8bbd0;
+    border-radius: 50px;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.04); 
+    width: 280px;
+}
+
+
+.kart img {
+    width: 100%; 
+    border-radius: 14px; 
+}
