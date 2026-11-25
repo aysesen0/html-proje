@@ -12,7 +12,7 @@
     
 
     
-    <div class="yan-menu">
+    <header class="yan-menu">
         <div class="logo-alani">
             <img src="logo2.png" alt="Logo">
             <h2>PinBoard</h2>
@@ -23,13 +23,20 @@
             <a href="#">➕ Pin Ekle</a>
 
         </nav>
-    </div>
+    </header>
 
     
-    <div class="ana-icerik">
-        <h1>Son Eklenen pinler</h1>
+    <main class="ana-icerik">
+        <section class="baslik kapsulu">
+            <h1>Keşfet ✨</h1>
+        </section>
+        <section class="form alanı">
+            <form id="pin-form"novidate>
+                
+                
 
-        <div class="pin-galerisi">
+        </section>
+        <section class="pin-galerisi" id="galeri">
             <div class="kart">
                 <img src="kedy.jpeg" alt="kedy">
                 
@@ -44,14 +51,14 @@
                 <img src="https://picsum.photos/300/180" alt="Kahve ve Kitap">
                 
             </div>
-
-            
-
-
-        </div>
-    </div>
-
+        </section>
+        <footer>
+            <p>© 2026 PinBoard - Ayşe Belkıs Şen</p>
+        </footer>
+    </main>
 
 
+<script src="script.js"></script> 
+<script>kartlariCiz("galeri");</script>
 </body>
 </html> 
