@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="tr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Pin Ekle</title>
+        <link rel="icon" type="image/png" href="logo2.png">
+        <link rel="stylesheet" href="still.css">
+    </head>
+    <body>
+        <header class="yan-menu">
+        <div class="logo-alani">
+            <img src="logo2.png" alt="Logo">
+            <h2>PinBoard</h2>
+        </div>
+        <nav class="menu-linkler">
+            <a href="index.html">🏠 Ana Sayfa</a>
+            <a href="#">✨ Keşfet</a>
+            <a href="pin_ekle.html">➕ Pin Ekle</a>
+
+        </nav>
+    </header>
+
+       <main class="ana-icerik">
+        <section class="baslik-kapsulu">
+            <h1>Yeni Pin Ekle</h1>
+        </section>
+    <section class="form-alani">
+
+
+        <form id="pin-form" novidate>
+            <div class="alan">
+                <label for="baslik">Pin Başlığı</label>
+                <input type="text" id="baslik" placeholder="Örn: Tatlı Kedi">
+            </div>
+
+            <div class="alan">
+                <label for="pano-sec">Pano Seç</label>
+                <select id="pano-sec">
+                    <option value="genel">Genel</option>
+                    <option value="hayvanlar">Hayvanlar</option>
+                    <option value="yemekler">Yemekler</option>
+                    <option value="sehirler">Şehirler</option>
+                    <option value="yeni">+ Yeni Pano</option>
+                </select>
+            </div>
+            <div class="alan" id="yeni-pano-alani" style="display:none;">
+                <label for="pano">Yeni Pano Adı</label>
+                <input type="text" id="pano" placeholder="Yeni Pano Adı">
+            </div>
+            <div class="alan">
+                <label for="gorsel">Görsel Linki</label>
+                <input type="text" id="gorsel" placeholder="https://...">
+            </div>
+
+            <button type="submit">Pin Ekle</button>
+        </form>
+    </section>
+</main>
+
+        
+
+            
+        <script src="script.js"></script>
+    </body>
+    </html>

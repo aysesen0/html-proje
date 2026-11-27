@@ -128,3 +128,56 @@ h2 {
     width: 100%; 
     border-radius: 14px; 
 }
+
+.form-alani {
+    max-width: 350px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 28px;
+    border-radius: 20px;
+    margin-top: 24px auto ;
+    border: 2px solid #f8bbd0;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    align-self: center;
+}
+
+.alan {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    margin-bottom: 18px;
+}
+
+.alan label {
+    font-weight: bold;
+    color: #5e35b1;
+    font-size: 14px;
+}
+.alan select,
+.alan input {
+    padding: 12px 14px;
+    border: 2px solid #f3e5f5;
+    border-radius: 12px;
+    font-size: 14px;
+    outline: none;
+}
+.alan select:focus,
+.alan input:focus {
+    border-color: #ce93d8;
+}
+
+.form-alani button {
+    width: 100%;
+    padding: 12px;
+    background-color: #7e57c2;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.form-alani button:hover {
+    background-color: #673ab7;
+}

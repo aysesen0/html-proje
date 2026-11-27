@@ -38,4 +38,21 @@ function kartlariCiz(hedefId){
     });
     }
 
+const pinFormu=document.getElementById("pin-form");
+if (pinFormu){
+    pinFormu.addEventListener("submit",function(olay){
+        olay.preventDefault();
+    });
+}
+const panoSec=document.getElementById("pano-sec");
+const yeniPanoAlani=document.getElementById("yeni-pano-alani");
 
+if(panoSec && yeniPanoAlani){
+    panoSec.addEventListener("change",function(){
+       if (panoSec.value==="yeni"){
+        yeniPanoAlani.style.display="flex";
+       }else{
+        yeniPanoAlani.style.display="none";
+       }
+    });
+}
